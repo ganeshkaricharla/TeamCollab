@@ -1,0 +1,23 @@
+.leadsidebar-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 90px);
+}
+
+.leadsidebar-container > h1 {
+    width: 100%;
+    /* border-bottom: 1px solid #e0e0e0; */
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.leadsidebar-item-active {
+    background-color: #18bc72;
+    color: aliceblue;
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035) 0.3s;
+    border-radius: 0px 30px 30px 0px;
+}

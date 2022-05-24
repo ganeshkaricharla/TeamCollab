@@ -1,0 +1,150 @@
+.orglogin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    background-image: url('https://images.unsplash.com/photo-1584448098255-234156529929?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2882&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.orglogin-title-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.orglogin-window-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(42, 42, 42);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.orglogin-register-window {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafaee;
+    min-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.orglogin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.orglogin-left,
+.orglogin-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.orglogin-left {
+    flex: 2;
+}
+
+.orglogin-name-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.orglogin-name-input-container label {
+    font-size: 0.75rem;
+    font-weight: 200;
+    color: rgb(123, 119, 119);
+    margin-bottom: 0.25rem;
+    text-transform: capitalize;
+}
+.orglogin-name-input-container input {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(27, 26, 26);
+    margin-bottom: 0.5rem;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.orglogin-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1480511361210-b1b966c8d614?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1021&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-clip: padding-box;
+}
+
+.orglogin-right hr {
+    width: 100%;
+}
+.orglogin-blockquote {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(46, 34, 34);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+.orglogin-alreadytext {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #000;
+    margin: 1rem auto;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.orglogin-login-button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(86, 84, 84);
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.orglogin-forgot-password {
+    font-size: 0.75rem;
+    font-weight: 200;
+    color: rgb(123, 119, 119);
+    margin-top: 0.25rem;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.orglogin-form-submit {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: rgb(196, 153, 96);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 35%;
+}

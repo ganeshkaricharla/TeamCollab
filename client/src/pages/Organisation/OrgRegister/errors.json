@@ -1,0 +1,32 @@
+{
+    "default": {
+        "show": false,
+        "message": "",
+        "type": "",
+        "redirect": null
+    },
+    "200": {
+        "show": true,
+        "message": "Created Succesfully",
+        "type": "success",
+        "redirect": "/org/login"
+    },
+    "409": {
+        "show": true,
+        "message": "Organisation Already Exists",
+        "type": "error",
+        "redirect": null
+    },
+    "500": {
+        "show": true,
+        "message": "Mistake is mine.",
+        "type": "error",
+        "redirect": null
+    },
+    "404": {
+        "show": true,
+        "message": "Page not found",
+        "type": "error",
+        "redirect": "/"
+    }
+}

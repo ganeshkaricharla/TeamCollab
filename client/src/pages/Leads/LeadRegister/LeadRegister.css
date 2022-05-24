@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.lead-register-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-family: 'VT323', monospace;
+}
+
+.lead-register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100%;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 5% auto auto 10%;
+    border-radius: 10px;
+}
+
+.lead-register-form input {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    font-family: 'VT323', monospace;
+    color: #fff;
+}
+
+.lead-register-form input::placeholder {
+    font-family: 'VT323', monospace;
+    color: rgba(255, 255, 255, 0.476);
+}
+
+.lead-register-form button {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 170, 12, 0.975);
+    font-size: 1.2em;
+    font-family: 'VT323', monospace;
+}

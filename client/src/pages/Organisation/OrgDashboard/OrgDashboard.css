@@ -1,0 +1,33 @@
+.orgdashboard-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.orgdashboard-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.orgdashboard-left {
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orgdashboard-right {
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orgdashboard-left > * {
+    margin: 1rem;
+}
+
+.orgdashboard-right > * {
+    margin: 1rem;
+}

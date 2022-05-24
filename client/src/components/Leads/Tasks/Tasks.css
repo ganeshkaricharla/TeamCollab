@@ -1,0 +1,21 @@
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 10px;
+    margin: 30px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.tasks-container button {
+    border: none;
+    background-color: none;
+    color: blue;
+    text-align: end;
+    display: flex;
+    align-self: flex-end;
+}

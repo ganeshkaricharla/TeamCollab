@@ -1,0 +1,32 @@
+.leaddashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+.leaddashboard-topbar {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.leaddashboard-topbar > h1 {
+    flex: 2;
+}
+
+.leaddashboard-topbar > div {
+    flex: 1;
+}
+.leaddashboard-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+}
+.leaddashboard-container * {
+    box-shadow: none;
+}

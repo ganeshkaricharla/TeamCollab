@@ -1,0 +1,22 @@
+.orgusers-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(22, 105, 183);
+    font-family: Poppins;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.811);
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 700px;
+}
+
+.orgusers-container > h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(22, 105, 183);
+    margin-bottom: 1.5rem;
+}
+
+.orgusers-container-inner {
+    display: flex;
+    flex-direction: column;
+}

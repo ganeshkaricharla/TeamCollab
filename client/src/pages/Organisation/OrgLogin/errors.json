@@ -1,0 +1,26 @@
+{
+    "default": {
+        "show": false,
+        "message": "",
+        "type": "",
+        "redirect": null
+    },
+    "500": {
+        "show": true,
+        "message": "Relax, we will fix our error and let you know.",
+        "type": "error",
+        "redirect": null
+    },
+    "404": {
+        "show": true,
+        "message": "Check Your credentials and try again.",
+        "type": "error",
+        "redirect": null
+    },
+    "401": {
+        "show": true,
+        "message": "Check Your credentials and try again..",
+        "type": "error",
+        "redirect": null
+    }
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.leadlogin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+    font-family: 'Koulen', cursive;
+    background-image: url('https://wallpapercave.com/dwp2x/wp2856131.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.leadllogin-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #ffffff88;
+    border-radius: 25px;
+    padding: 100px;
+}
+.leadllogin-form h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #fafafa;
+    background-color: rgb(247, 205, 20);
+}
+.leadllogin-form input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.leadllogin-form button {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background-color: #a1e3c1;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(122, 122, 122);
+}

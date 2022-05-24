@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-title-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+.logo-team {
+    background-color: rgb(255, 255, 0);
+    color: rgb(22, 105, 183);
+    padding: 5px 1px 5px 10px;
+    box-shadow: -5px 5px 20px rgb(22, 105, 183);
+}
+
+.logo-collab {
+    background-color: rgb(22, 105, 183);
+    color: rgb(255, 255, 0);
+    padding: 5px 10px 5px 1px;
+
+    box-shadow: 5px 5px 20px rgb(255, 255, 0);
+}

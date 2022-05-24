@@ -1,0 +1,38 @@
+{
+    "default": {
+        "show": false,
+        "message": "",
+        "type": "",
+        "redirect": null
+    },
+    "200": {
+        "show": true,
+        "message": "user Invited succesfully",
+        "type": "success",
+        "redirect": "/org/dashboard"
+    },
+    "500": {
+        "show": true,
+        "message": "Relax, we will fix our error and let you know.",
+        "type": "error",
+        "redirect": null
+    },
+    "409": {
+        "show": true,
+        "message": "User is already invited.",
+        "type": "error",
+        "redirect": null
+    },
+    "404": {
+        "show": true,
+        "message": "Organisation not found",
+        "type": "error",
+        "redirect": null
+    },
+    "402": {
+        "show": true,
+        "message": "Something went wrong,re login and try again.",
+        "type": "error",
+        "redirect": null
+    }
+}

@@ -1,0 +1,49 @@
+.orgnameupdate-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.811);
+    width: 500px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.orgnameupdate-container h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.orgnameupdate-container p {
+    font-size: 8px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.orgnameupdate-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.orgnameupdate-container input {
+    font-size: 15px;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+.orgnameupdate-container button {
+    font-size: 15px;
+    margin: 10px 0px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    background-color: #00a8ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+{
+    "default": {
+        "show": false,
+        "message": "",
+        "type": "",
+        "redirect": null
+    },
+    "200": {
+        "show": true,
+        "message": "updated succesfully ",
+        "type": "success",
+        "redirect": "/org/dashboard"
+    },
+    "500": {
+        "show": true,
+        "message": "Relax, we will fix our error and let you know.",
+        "type": "error",
+        "redirect": null
+    },
+    "409": {
+        "show": true,
+        "message": "This organisation Already exists.",
+        "type": "error",
+        "redirect": null
+    },
+    "401": {
+        "show": true,
+        "message": "Login to change your organisation Name.",
+        "type": "error",
+        "redirect": null
+    }
+}
